@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>oeasy从零开始js系列</title>
     <style type="text/css">
+
         body{
             background-image: url(./images/wzsy.jpg);
             background-size: 100% 100%;
@@ -11,10 +12,18 @@
         html{
             height: 100%;
         }
+        @keyframes myfirst {
+            from{opacity: 0}
+            to{opacity: 100%}
+        }
+        h1,p{
+            animation: myfirst 3s infinite;
+            animation-direction: alternate;
+        }
     </style>
 </head>
 <body>
-<h1>无 中 生 友</h1>
-<p>你说的这个朋友究竟是不是你自己.JPG</p>
+    <h1>无 中 生 友</h1>
+    <p>你说的这个朋友究竟是不是你自己.JPG</p>
 </body>
 </html>
